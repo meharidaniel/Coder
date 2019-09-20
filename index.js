@@ -4,7 +4,7 @@ const authenticat = require('./authenticat');
 const express = require('express');
 const app = express();
 
-
+// intializes req.body object
 app.use(express.json());
 
 app.use(logger);
